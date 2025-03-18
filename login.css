@@ -1,0 +1,26 @@
+body {
+    background: linear-gradient(to right, #f4f4f4 50%, #A2EBDD 50%);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    justify-content: flex-start !important;
+    padding-left: 5%;
+} 
+
+.login-container {
+    width: 300px;
+}
+
+.guitarist-image {
+    position: fixed;
+    right: 10%;
+    bottom: 8%;
+    height: 80%; /* Adjust the height as needed */
+    object-fit: contain; /* Ensure it scales properly */
+    background-color: transparent; /* Ensures no background is applied */
+}
