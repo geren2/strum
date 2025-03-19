@@ -13,10 +13,17 @@ header {
     background-color: #ffffff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+@font-face {
+    font-family: 'Museo700';
+    src: url('fonts\Museo700-Regular.ttf') format('truetype');
+}
 
 .logo {
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bold;
+    font-family: "Museo700";
+    color: #528771;
+
 }
 
 nav ul {
