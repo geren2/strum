@@ -1,0 +1,19 @@
+/* Custom styles for Contact Us page */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+}
+
+footer {
+  background-color: #f8f9fa;
+  color: #6c757d;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
