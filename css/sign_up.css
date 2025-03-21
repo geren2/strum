@@ -1,0 +1,62 @@
+/* General styles for the page */
+body {
+    background-color: #ADE8DD; /* Background color */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: #35524A; /* Dark Green */
+    color: #ffffff;
+}
+
+.card h3 {
+    color: #32DE8A; /* Light Green */
+    text-align: center;
+}
+
+form .form-control {
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+button.btn-primary {
+    background-color: #779CAB; /* Light Blue */
+    border-color: #779CAB;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button.btn-primary:hover {
+    background-color: #627C85; /* Gray-Blue */
+    border-color: #627C85;
+}
+
+/* Styling the select boxes */
+select.form-control {
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+/* Custom focus on input fields */
+input:focus, select:focus {
+    border-color: #32DE8A; /* Light Green */
+    box-shadow: 0 0 5px #32DE8A;
+}
+.text-center {
+    margin-top: 20px;
+    font-size: 40px;
+    color: #35524A
+}
+.text-center::after {
+  content: "";
+  display: block;
+  width: 40%;
+  height: 2px;
+  background-color: #35524A;
+  margin: 0 auto;
+}
