@@ -7,9 +7,7 @@
     
     <!-- Link to Bootstrap CSS (local file) -->
     <link rel="stylesheet" href="css/bootstrap.css">
-    
-    
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contacts.css">
 </head>
 <body>
     <header>
@@ -24,30 +22,31 @@
 
     <!-- Contact Form Section -->
     <div class="container my-5">
-        <h2 class="text-center mb-4">Contact Us</h2>
+        <h2 class="text-center mb-4 contact-title">Contact Us</h2>
+        <div style="height: 40px;"></div>
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <form action="#" method="post">
                     <div class="mb-3">
-                        <label for="name" class="form-label">Full Name</label>
+                        <label for="name" class="form-label bold-label">Full Name</label>
                         <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
                     </div>
                     <div class="mb-3">
-                        <label for="email" class="form-label">Email Address</label>
+                        <label for="email" class="form-label bold-label">Email Address</label>
                         <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
                     </div>
                     <div class="mb-3">
-                        <label for="message" class="form-label">Message</label>
+                        <label for="message" class="form-label bold-label">Message</label>
                         <textarea class="form-control" id="message" rows="4" placeholder="Your message" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    <button type="submit" class="btn btn-primary w-100">Send</button>
                 </form>
             </div>
         </div>
     </div>
 
     <!-- Footer -->
-    <footer class="bg-light text-center py-4">
+    <footer>
         <p>&copy; 2025 Strum. All rights reserved.</p>
     </footer>
 

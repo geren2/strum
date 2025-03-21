@@ -1,0 +1,142 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6fafa; /* Dark background for contrast */
+    color: black
+}
+
+
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #D3D4D4; /* Dark Slate Gray */
+    
+    color: #35524A;
+    font-size: 28px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);;
+}
+
+/* Main Content Container */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Sections Styling */
+.section-bg {
+    background-color: #D3D4D4; /* Darker Slate Gray */
+    padding: 30px;
+    border-radius: 10px;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings */
+h1, h2 {
+    font-family: "Museo700", sans-serif;
+    color: black; /* Tiffany Blue */
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Highlighted text */
+.highlight {
+    color: #A2E8DD; /* Tiffany Blue */
+    font-weight: bold;
+}
+
+/* List styling */
+.list-group {
+    background-color: transparent;
+}
+
+.list-group-item {
+    background-color: #2F4F4F; /* Dark Green */
+    color: black;
+    border: none;
+    font-size: 18px;
+}
+
+/* Buttons */
+.btn-main {
+    background-color: #32DE8A; /* Emerald */
+    color: black;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+}
+
+.btn-main:hover {
+    background-color: #A2E8DD; /* Tiffany Blue */
+    color: #1E2D2F;
+}
+
+/* Center button */
+.text-center {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #35524A;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    color: white;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.footer-links a:hover {
+    color: #A2E8DD;
+}
+
+
+.list-group-item {
+    background-color: #D3D4D4 !important; /* Světle šedá barva */
+    color: black !important; /* Černý text pro lepší kontrast */
+    border-color: #bbb; /* Lehce tmavší ohraničení */
+}
+
+
+.row {
+    display: flex;
+    justify-content: center; /* Vycentrování obsahu horizontálně */
+    align-items: center; /* Vycentrování obsahu vertikálně */
+    text-align: center; /* Zarovnání textu na střed */
+}
+.list-group {
+    width: 100%; /* Zajistí, že seznam se správně roztáhne */
+    max-width: 400px; /* Zachová maximální šířku */
+    margin: 0 auto; /* Auto zarovnání na střed */
+}
+
+
+.btn-main {
+    margin-top: 50px; /* Zvýší vzdálenost od předchozího obsahu */
+}
