@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events & Jams | Strum</title>
+    <link rel="stylesheet" href="css/bootstrap.css">  <!-- Local Bootstrap -->
+    <link rel="stylesheet" href="css/events.css"> <!-- Custom Styles -->
+</head>
+<body>
+    <header class="d-flex justify-content-between align-items-center py-3">
+        <div class="logo">Strum</div>
+        <nav class="d-flex justify-content-center">
+            <ul class="list-unstyled d-flex mb-0">
+                <li class="mx-2"><button class="nav-btn btn" onclick="location.href='index.html'">Home</button></li>
+                <li class="mx-2"><button class="nav-btn btn" onclick="location.href='discover.html'">Discover</button></li>
+                <li class="mx-2"><button class="nav-btn btn" onclick="location.href='about_us.html'">About Us</button></li>
+            </ul>
+        </nav>
+        <button class="login-btn btn" onclick="location.href='login.html'">Login</button>
+    </header>
+    
+    <div class="container mt-4">
+        <h1 class="text-center">Events & Jams</h1>
+        <p class="text-center">Find or share local and virtual music events.</p>
+        
+        <!-- Browse Events -->
+        <section class="mt-4">
+            <h2>Upcoming Events</h2>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action">
+                    <h5>Open Mic Night</h5>
+                    <p>Location: Brooklyn, NY | Date: April 10, 2025</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    <h5>Rock Band Meetup</h5>
+                    <p>Location: Austin, TX | Date: April 15, 2025</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- Post an Event -->
+        <section class="mt-4">
+            <h2>Post an Event</h2>
+            <form>
+                <div class="mb-3">
+                    <label class="form-label">Event Name</label>
+                    <input type="text" class="form-control" placeholder="Enter event name" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Location</label>
+                    <input type="text" class="form-control" placeholder="Enter location or 'Online'" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Date</label>
+                    <input type="date" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit Event</button>
+            </form>
+        </section>
+
+        <!-- Virtual Jam Sessions -->
+        <section class="mt-4">
+            <h2>Virtual Jam Sessions</h2>
+            <p>Join musicians worldwide for live online jam sessions.</p>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action">
+                    <h5>Jazz Night - Zoom Jam</h5>
+                    <p>April 12, 2025 | Hosted on Zoom</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    <h5>Acoustic Vibes - Discord</h5>
+                    <p>April 20, 2025 | Hosted on Discord</p>
+                </a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

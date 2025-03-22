@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f6fafa; /* Dark background for contrast */
+    background-color: #a2e8dd; /* Dark background for contrast */
     color: black
 }
 
@@ -15,12 +15,20 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background-color: #D3D4D4; /* Dark Slate Gray */
+    background-color: white; /* Dark Slate Gray */
     
     color: #35524A;
     font-size: 28px;
     font-weight: bold;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Museo700";
+    color: #528771;
+
 }
 
 /* Main Content Container */
@@ -33,10 +41,10 @@ header {
 
 /* Sections Styling */
 .section-bg {
-    background-color: #D3D4D4; /* Darker Slate Gray */
+    background-color: #35524A; /* Darker Slate Gray */
     padding: 30px;
     border-radius: 10px;
-    color: black;
+    color: white;
     margin-bottom: 20px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -45,7 +53,7 @@ header {
 /* Headings */
 h1, h2 {
     font-family: "Museo700", sans-serif;
-    color: black; /* Tiffany Blue */
+    color: white; /* Tiffany Blue */
     text-align: center;
     margin-bottom: 15px;
 }
@@ -118,8 +126,8 @@ footer {
 
 
 .list-group-item {
-    background-color: #D3D4D4 !important; /* Světle šedá barva */
-    color: black !important; /* Černý text pro lepší kontrast */
+    background-color: #35524A !important; /* Světle šedá barva */
+    color: white !important; /* Černý text pro lepší kontrast */
     border-color: #bbb; /* Lehce tmavší ohraničení */
 }
 
@@ -139,4 +147,7 @@ footer {
 
 .btn-main {
     margin-top: 50px; /* Zvýší vzdálenost od předchozího obsahu */
+}
+.black-title {
+    color: black !important;
 }
