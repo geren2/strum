@@ -4,7 +4,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #a2e8dd; /* Dark background for contrast */
-    color: black
+    color: black;
+    font-family: 'Nexa Light', sans-serif;
 }
 
 
@@ -150,4 +151,7 @@ footer {
 }
 .black-title {
     color: black !important;
+}
+.nav-btn.btn {
+    margin-top:18px
 }

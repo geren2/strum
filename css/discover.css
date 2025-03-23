@@ -13,6 +13,7 @@
     font-family: 'Arial', sans-serif;
     color: var(--dark-green);
     margin-top: 100px; /* space for the fixed navbar */
+    font-family: 'Nexa Light', sans-serif;
   }
   
   header {
@@ -106,11 +107,13 @@
   
   .card-body {
     padding: 10px;
+
   }
   
   .card-title {
     margin-top: 10px;
     font-weight: bold;
+
   }
   
   .card-text {
@@ -128,6 +131,7 @@
     color: var(--white);
     border: none;
     font-size: 0.9rem;
+
   }
   
   .btn-success:hover {
@@ -137,4 +141,6 @@
   .btn-danger:hover {
     background-color: #000000;
   }
-  
+  .nav-btn.btn {
+    margin-top:18px
+}

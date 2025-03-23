@@ -1,7 +1,7 @@
 /* General styles for the page */
 body {
     background-color: #ADE8DD; /* Background color */
-    font-family: 'Arial', sans-serif;
+    font-family: 'Nexa Light', sans-serif;
 }
 
 .container {
@@ -50,7 +50,7 @@ input:focus, select:focus {
 .text-center {
     margin-top: 20px;
     font-size: 40px;
-    color: #35524A
+    color: #35524A;
 }
 .text-center::after {
   content: "";

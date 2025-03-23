@@ -6,6 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family: 'Nexa Light', sans-serif;
 }
 
 .container {
@@ -40,4 +41,7 @@ footer {
   color: white;
   padding: 10px 0;
   margin-top: auto;
+}
+.nav-btn.btn {
+  margin-top:18px
 }

@@ -1,6 +1,7 @@
 body {
     background-color: #A2E8DD;
     font-family: Arial, sans-serif;
+    font-family: 'Nexa Light', sans-serif;
 }
 h1, h2 {
     color: #35524A;
@@ -44,4 +45,7 @@ nav {
 }
 .login-btn {
     margin-right: 20px; /* Moves the login button left */
+}
+.nav-btn.btn {
+    margin-top:18px
 }
