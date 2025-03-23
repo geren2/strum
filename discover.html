@@ -1,110 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Strum - Discover Musicians</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <title>Strum - Discover Musicians</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Bootstrap Local CSS -->
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/discover.css">
-</head>
-<body>
+    <!-- Bootstrap Local CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/discover.css" />
+  </head>
+  <body>
+    <!-- Header/Navbar -->
+    <header
+      class="d-flex justify-content-between align-items-center py-3 px-4 shadow-sm bg-white fixed-top"
+    >
+      <!-- Left: Logo -->
+      <div class="logo fw-bold">Strum</div>
 
-  <!-- Header/Navbar -->
-  <header class="d-flex justify-content-between align-items-center py-3 px-4 shadow-sm bg-white fixed-top">
-    <!-- Left: Logo -->
-    <div class="logo fw-bold">Strum</div>
+      <!-- Center: Nav links -->
+      <nav class="d-flex justify-content-center">
+        <ul class="list-unstyled d-flex mb-0">
+          <li class="mx-3">
+            <button
+              class="nav-btn btn active"
+              onclick="location.href='discover.html'"
+            >
+              Discover
+            </button>
+          </li>
+          <li class="mx-3">
+            <!-- Home Icon as Image -->
+            <a href="index.html">
+              <img
+                src="images/house_icon.png"
+                alt="Home"
+                style="width: 70px; height: 70px"
+              />
+            </a>
+          </li>
+          <li class="mx-3">
+            <button class="nav-btn btn" onclick="location.href='about_us.html'">
+              About Us
+            </button>
+          </li>
+        </ul>
+      </nav>
 
-    <!-- Center: Nav links -->
-    <nav class="d-flex justify-content-center">
-      <ul class="list-unstyled d-flex mb-0">
-        <li class="mx-3">
-          <button class="nav-btn btn active" onclick="location.href='discover.html'">Discover</button>
-        </li>
-        <li class="mx-3">
-          <!-- Home Icon as Image -->
-          <a href="index.html">
-              <img src="images/house_icon.png" alt="Home" style="width: 70px; height: 70px;">
-          </a>
-        </li>
-        <li class="mx-3">
-          <button class="nav-btn btn" onclick="location.href='about_us.html'">About Us</button>
-        </li>
-      </ul>
-    </nav>
+      <!-- Right: Login button -->
+      <button
+        class="login-btn btn btn-outline-dark"
+        onclick="location.href='login.html'"
+      >
+        Login
+      </button>
+    </header>
 
-    <!-- Right: Login button -->
-    <button class="login-btn btn btn-outline-dark" onclick="location.href='login.html'">Login</button>
-  </header>
+    <!-- Discover Section -->
+    <div class="container mt-5 pt-5">
+      <h2 class="section-title">Discover Musicians</h2>
 
-  <!-- Discover Section -->
-  <div class="container mt-5 pt-5">
-    <h2 class="section-title">Discover Musicians</h2>
-
-    <div class="scroll-container">
-      <!-- Musician Card 1 -->
-      <div class="musician-card text-center">
-        <img src="https://media.istockphoto.com/id/1390883286/photo/young-man-playing-guitar-at-home.jpg?s=612x612&w=0&k=20&c=HhSU8oNuz17UyoALdek5x0TDk7ERI4KSd6VOAczIYSY=" class="musician-img" alt="Musician 1">
-        <div class="card-body">
-          <h5 class="card-title">Alex Johnson</h5>
-          <p class="card-text">Age: 25</p>
-          <p class="card-text">Instrument: Guitar</p>
-          <div class="d-flex justify-content-center gap-2">
-            <button class="btn btn-success">Like</button>
-            <button class="btn btn-danger">Dislike</button>
+      <div class="scroll-container">
+        <!-- Musician Card 1 -->
+        <div class="musician-card text-center">
+          <img
+            src="https://media.istockphoto.com/id/1390883286/photo/young-man-playing-guitar-at-home.jpg?s=612x612&w=0&k=20&c=HhSU8oNuz17UyoALdek5x0TDk7ERI4KSd6VOAczIYSY="
+            class="musician-img"
+            alt="Musician 1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Alex Johnson</h5>
+            <p class="card-text">Age: 25</p>
+            <p class="card-text">Instrument: Guitar</p>
+            <div class="d-flex justify-content-center gap-2">
+              <button class="btn btn-success">Like</button>
+              <button class="btn btn-danger">Dislike</button>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Musician Card 2 -->
-      <div class="musician-card text-center">
-        <img src="https://as1.ftcdn.net/v2/jpg/03/09/25/22/1000_F_309252233_cDdpa3upllMCY6XK01Sr6iT1GaBswtMO.jpg" class="musician-img" alt="Musician 2">
-        <div class="card-body">
-          <h5 class="card-title">Samantha Lee</h5>
-          <p class="card-text">Age: 22</p>
-          <p class="card-text">Instrument: Drums</p>
-          <div class="d-flex justify-content-center gap-2">
-            <button class="btn btn-success">Like</button>
-            <button class="btn btn-danger">Dislike</button>
+        <!-- Musician Card 2 -->
+        <div class="musician-card text-center">
+          <img
+            src="https://as1.ftcdn.net/v2/jpg/03/09/25/22/1000_F_309252233_cDdpa3upllMCY6XK01Sr6iT1GaBswtMO.jpg"
+            class="musician-img"
+            alt="Musician 2"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Samantha Lee</h5>
+            <p class="card-text">Age: 22</p>
+            <p class="card-text">Instrument: Drums</p>
+            <div class="d-flex justify-content-center gap-2">
+              <button class="btn btn-success">Like</button>
+              <button class="btn btn-danger">Dislike</button>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Musician Card 3 -->
-      <div class="musician-card text-center">
-        <img src="https://media.istockphoto.com/id/1324484964/photo/african-american-man-playing-piano-indoors-above-view-talented-musician.jpg?s=612x612&w=0&k=20&c=Oax2cCV2NlMHntp2kyv1D815EDqxTf4gKXTUJfPAklM=" class="musician-img" alt="Musician 3">
-        <div class="card-body">
-          <h5 class="card-title">Marcus Nguyen</h5>
-          <p class="card-text">Age: 30</p>
-          <p class="card-text">Instrument: Piano</p>
-          <div class="d-flex justify-content-center gap-2">
-            <button class="btn btn-success">Like</button>
-            <button class="btn btn-danger">Dislike</button>
+        <!-- Musician Card 3 -->
+        <div class="musician-card text-center">
+          <img
+            src="https://media.istockphoto.com/id/1324484964/photo/african-american-man-playing-piano-indoors-above-view-talented-musician.jpg?s=612x612&w=0&k=20&c=Oax2cCV2NlMHntp2kyv1D815EDqxTf4gKXTUJfPAklM="
+            class="musician-img"
+            alt="Musician 3"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Marcus Nguyen</h5>
+            <p class="card-text">Age: 30</p>
+            <p class="card-text">Instrument: Piano</p>
+            <div class="d-flex justify-content-center gap-2">
+              <button class="btn btn-success">Like</button>
+              <button class="btn btn-danger">Dislike</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Matches Section -->
-  <div class="container mt-5 mb-5">
-    <h2 class="section-title">My Music Matches</h2>
+    <!-- Matches Section -->
+    <div class="container mt-5 mb-5">
+      <h2 class="section-title">My Music Matches</h2>
 
-    <div class="scroll-container">
-      <!-- Matched Musician Card -->
-      <div class="musician-card text-center">
-        <img src="data:image/jpeg;base64,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" class="musician-img" alt="Matched Musician">
-        <div class="card-body">
-          <h5 class="card-title">Taylor Brooks</h5>
-          <p class="card-text">Age: 27</p>
-          <p class="card-text">Instrument: Violin</p>
+      <div class="scroll-container">
+        <!-- Matched Musician Card -->
+        <div class="musician-card text-center">
+          <img
+            src="data:image/jpeg;base64,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"
+            class="musician-img"
+            alt="Matched Musician"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Taylor Brooks</h5>
+            <p class="card-text">Age: 27</p>
+            <p class="card-text">Instrument: Violin</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Bootstrap JS -->
-  <script src="js/bootstrap.bundle.js"></script>
-</body>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
 </html>

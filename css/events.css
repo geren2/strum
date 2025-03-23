@@ -1,51 +1,51 @@
 body {
-    background-color: #A2E8DD;
-    font-family: Arial, sans-serif;
-    font-family: 'Nexa Light', sans-serif;
+  background-color: #a2e8dd;
+  font-family: Arial, sans-serif;
+  font-family: "Nexa Light", sans-serif;
 }
-h1, h2 {
-    color: #35524A;
+h1,
+h2 {
+  color: #35524a;
 }
 .container {
-    max-width: 800px;
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .list-group-item {
-    background: #779CAB;
-    color: #35524A;
-    transition: background 0.3s ease;
+  background: #779cab;
+  color: #35524a;
+  transition: background 0.3s ease;
 }
 .list-group-item:hover {
-    background: #627C85;
-    color: white;
+  background: #627c85;
+  color: white;
 }
 .btn-primary {
-    background-color: #32DE8A;
-    border: none;
+  background-color: #32de8a;
+  border: none;
 }
 .btn-primary:hover {
-    background-color: #528771;
+  background-color: #528771;
 }
 .form-control {
-    border: 1px solid #528771;
+  border: 1px solid #528771;
 }
 .logo {
-    font-size: 40px;
-    font-weight: bold;
-    font-family: "Museo700";
-    color: #528771;
-    margin-left: 20px;
-
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Museo700";
+  color: #528771;
+  margin-left: 20px;
 }
 nav {
-    margin-left: -20px; /* Adjust this value as needed */
+  margin-left: -20px; /* Adjust this value as needed */
 }
 .login-btn {
-    margin-right: 20px; /* Moves the login button left */
+  margin-right: 20px; /* Moves the login button left */
 }
 .nav-btn.btn {
-    margin-top:18px
+  margin-top: 18px;
 }

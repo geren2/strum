@@ -1,149 +1,147 @@
 @font-face {
-    font-family: 'Museo700';
-    src: url('fonts/Museo700-Regular.ttf') format('truetype');
+  font-family: "Museo700";
+  src: url("fonts/Museo700-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Nexa Light';
-    src: url('fonts/Nexa-Light.ttf') format('truetype');
+  font-family: "Nexa Light";
+  src: url("fonts/Nexa-Light.ttf") format("truetype");
 }
 
 body {
-    font-family: 'Nexa Light', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+  font-family: "Nexa Light", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 30px;
-    background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-
 .logo {
-    font-size: 40px;
-    font-weight: bold;
-    font-family: "Museo700";
-    color: #528771;
-
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Museo700";
+  color: #528771;
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
+  list-style: none;
+  display: flex;
+  gap: 15px;
 }
 
 nav ul li {
-    display: inline;
+  display: inline;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .login-btn {
-    background-color: #2f4f4f;
-    color: white;
-    border: none;
-    padding: 8px 15px;
-    cursor: pointer;
+  background-color: #2f4f4f;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
 }
 
 .hero {
-    text-align: center;
-    padding: 40px;
-    background-color: rgb(237, 236, 236);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  text-align: center;
+  padding: 40px;
+  background-color: rgb(237, 236, 236);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hero img {
-    height: auto;
-    margin-top: 20px;
-    width: 100%;
-    display: flex;
-    flex-direction:column;
+  height: auto;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .signup-btn {
-    background-color: #2f4f4f;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
+  background-color: #2f4f4f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .features {
-    text-align: center;
-    padding: 40px;
-    background-color: #ffffff;
+  text-align: center;
+  padding: 40px;
+  background-color: #ffffff;
 }
 
 .feature-container {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
 .feature-box {
-    background-color: #f8f8f8;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 30%;
-    height: auto;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  height: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #ffffff;
-    margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  margin-top: 20px;
 }
 
 .footer-links a {
-    text-decoration: none;
-    color: black;
-    margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
 }
 .Events-button {
-    margin-top: 23px;
-    background-color: #2f4f4f;
-    color: white;
-    border: none;
-    padding: 8px 15px;
-    cursor: pointer;
+  margin-top: 23px;
+  background-color: #2f4f4f;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
 }
 .About_us-button {
-    margin-top: 23px;
-    background-color: #2f4f4f;
-    color: white;
-    border: none;
-    padding: 8px 15px;
-    cursor: pointer;
+  margin-top: 23px;
+  background-color: #2f4f4f;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
 }
 .Discover-button {
-    background-color: #2f4f4f;
-    color: white;
-    border: none;
-    padding: 8px 15px;
-    cursor: pointer;
+  background-color: #2f4f4f;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
 }
 .nav-btn.btn {
-    margin-top:18px
+  margin-top: 18px;
 }

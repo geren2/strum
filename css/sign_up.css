@@ -1,62 +1,63 @@
 /* General styles for the page */
 body {
-    background-color: #ADE8DD; /* Background color */
-    font-family: 'Nexa Light', sans-serif;
+  background-color: #ade8dd; /* Background color */
+  font-family: "Nexa Light", sans-serif;
 }
 
 .container {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .card {
-    border-radius: 10px;
-    background-color: #35524A; /* Dark Green */
-    color: #ffffff;
+  border-radius: 10px;
+  background-color: #35524a; /* Dark Green */
+  color: #ffffff;
 }
 
 .card h3 {
-    color: #32DE8A; /* Light Green */
-    text-align: center;
+  color: #32de8a; /* Light Green */
+  text-align: center;
 }
 
 form .form-control {
-    border-radius: 5px;
-    margin-bottom: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
 }
 
 button.btn-primary {
-    background-color: #779CAB; /* Light Blue */
-    border-color: #779CAB;
-    border-radius: 5px;
-    padding: 10px;
+  background-color: #779cab; /* Light Blue */
+  border-color: #779cab;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 button.btn-primary:hover {
-    background-color: #627C85; /* Gray-Blue */
-    border-color: #627C85;
+  background-color: #627c85; /* Gray-Blue */
+  border-color: #627c85;
 }
 
 /* Styling the select boxes */
 select.form-control {
-    border-radius: 5px;
-    background-color: #ffffff;
+  border-radius: 5px;
+  background-color: #ffffff;
 }
 
 /* Custom focus on input fields */
-input:focus, select:focus {
-    border-color: #32DE8A; /* Light Green */
-    box-shadow: 0 0 5px #32DE8A;
+input:focus,
+select:focus {
+  border-color: #32de8a; /* Light Green */
+  box-shadow: 0 0 5px #32de8a;
 }
 .text-center {
-    margin-top: 20px;
-    font-size: 40px;
-    color: #35524A;
+  margin-top: 20px;
+  font-size: 40px;
+  color: #35524a;
 }
 .text-center::after {
   content: "";
   display: block;
   width: 40%;
   height: 2px;
-  background-color: #35524A;
+  background-color: #35524a;
   margin: 0 auto;
 }
