@@ -10,37 +10,52 @@
     <link rel="stylesheet" href="css/contacts.css" />
   </head>
   <body>
-    <header class="d-flex px-3 py-2">
+    <!-- Header/Navbar -->
+    <header
+      class="d-flex justify-content-between align-items-center py-3 px-4 shadow-sm bg-white fixed-top">
+      <!-- Left: Logo -->
       <div class="logo">
         <a href="index.html" onclick="scrollToTop(event)" style="text-decoration: none; color: inherit;">
           Strum
         </a>
       </div>
-      <nav class="flex-grow-1">
-        <ul class="list-unstyled d-flex justify-content-center mb-0">
-          <li class="mx-2">
-            <button class="nav-btn btn" onclick="location.href='discover.html'">
+
+      <!-- Center: Nav links -->
+      <nav class="d-flex justify-content-center">
+        <ul class="list-unstyled d-flex mb-0">
+          <li class="mx-3">
+            <button
+              class="nav-btn btn"
+              onclick="location.href='discover.html'"
+            >
               Discover
             </button>
           </li>
-          <li class="mx-2">
+          <li class="mx-3">
             <button class="nav-btn btn" onclick="location.href='events.html'">
               Events & Jams
             </button>
           </li>
-          <li class="mx-2">
+          <li class="mx-3">
             <button class="nav-btn btn" onclick="location.href='about_us.html'">
               About Us
             </button>
           </li>
-          <li class="mx-2">
-            <button class="nav-btn btn" onclick="location.href='contacts.html'">
+          <li class="mx-3">
+            <button class="nav-btn btn active" onclick="location.href='contacts.html'">
               Contact Us
             </button>
           </li>
         </ul>
       </nav>
-      <div class="logo-placeholder" style="width: 100px;">&nbsp;</div> <!-- This balances the logo space -->
+
+      <!-- Right: Login button -->
+      <button
+        class="login-btn btn btn-outline-dark"
+        onclick="location.href='login.html'"
+      >
+        Login
+      </button>
     </header>
     
 

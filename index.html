@@ -6,47 +6,62 @@
     <title>Strum - Connecting Musicians</title>
     <!-- Link to Bootstrap CSS (local file) -->
     <link rel="stylesheet" href="css/bootstrap.css" />
-
     <link rel="stylesheet" href="css/index.css" />
+    <script src="js/index.js"></script>
+
   </head>
   <body>
-    <header class="d-flex justify-content-between align-items-center py-3">
+    <!-- Header/Navbar -->
+    <header
+      class="d-flex justify-content-between align-items-center py-3 px-4 shadow-sm bg-white fixed-top">
+      <!-- Left: Logo -->
       <div class="logo">
         <a href="index.html" onclick="scrollToTop(event)" style="text-decoration: none; color: inherit;">
           Strum
         </a>
       </div>
+
+      <!-- Center: Nav links -->
       <nav class="d-flex justify-content-center">
         <ul class="list-unstyled d-flex mb-0">
-          <li class="mx-2">
-            <button class="nav-btn btn" onclick="location.href='discover.html'">
+          <li class="mx-3">
+            <button
+              class="nav-btn btn"
+              onclick="location.href='discover.html'"
+            >
               Discover
             </button>
           </li>
-          <li class="mx-2">
+          <li class="mx-3">
             <button class="nav-btn btn" onclick="location.href='events.html'">
               Events & Jams
             </button>
           </li>
-          <li class="mx-2">
+          <li class="mx-3">
             <button class="nav-btn btn" onclick="location.href='about_us.html'">
               About Us
             </button>
           </li>
-          <li class="mx-2">
+          <li class="mx-3">
             <button class="nav-btn btn" onclick="location.href='contacts.html'">
               Contact Us
             </button>
           </li>
         </ul>
       </nav>
-      <button class="login-btn btn" onclick="location.href='login.html'">
+
+      <!-- Right: Login button -->
+      <button
+        class="login-btn btn btn-outline-dark"
+        onclick="location.href='login.html'"
+      >
         Login
       </button>
+      <button class="menu-toggle d-md-none" onclick="toggleMenu()">☰</button>
     </header>
     
 
-    <section class="hero">
+    <section class="hero pt-5">
       <h1>Connecting Musicians. Sharing Passion</h1>
       <p>
         Strum is where musicians meet, play and grow together. Whether you're a

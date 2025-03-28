@@ -8,18 +8,23 @@ body {
   font-family: "Nexa Light", sans-serif;
 }
 
-/* Header */
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  background-color: white; /* Dark Slate Gray */
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --dark-green: #35524a;
+  --mid-green: #627c85;
+  --light-green: #779cab;
+  --mint: #a2e8dd;
+  --neon-green: #32de8a;
+}
 
-  color: #35524a;
-  font-size: 28px;
-  font-weight: bold;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+body {
+  margin-top: 100px; /* space for the fixed navbar */
+}
+
+header {
+  background-color: var(--white);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
@@ -27,6 +32,38 @@ header {
   font-weight: bold;
   font-family: "Museo700";
   color: #528771;
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+  font-weight: 500;
+  color: var(--dark-green);
+  padding: 8px 16px;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.nav-btn:hover,
+.nav-btn.active {
+  color: var(--neon-green);
+  border-bottom: 2px solid var(--neon-green);
+}
+
+.login-btn {
+  font-weight: 500;
+  border: 1px solid var(--dark-green);
+  color: var(--dark-green);
+  padding: 8px 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.login-btn:hover {
+  background-color: var(--neon-green);
+  color: var(--white);
+}
+
+.nav-btn.btn {
+  margin-top: 18px;
 }
 
 /* Main Content Container */
