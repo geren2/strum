@@ -8,6 +8,57 @@ body {
   min-height: 100vh;
   font-family: "Nexa Light", sans-serif;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Ensures responsiveness */
+  padding: 15px 20px;
+}
+
+nav {
+  flex-grow: 1; /* Allows nav to take available space */
+  display: flex;
+  justify-content: center; /* Centers the menu */
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  nav {
+    width: 100%; /* Full width for mobile */
+    justify-content: center; /* Keep it centered */
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+  }
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Museo700";
+  color: #528771;
+}
 
 .container {
   max-width: 800px;

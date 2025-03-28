@@ -10,32 +10,39 @@
     <link rel="stylesheet" href="css/contacts.css" />
   </head>
   <body>
-    <header>
-      <nav class="d-flex justify-content-center">
-        <ul class="list-unstyled d-flex mb-0">
+    <header class="d-flex px-3 py-2">
+      <div class="logo">
+        <a href="index.html" onclick="scrollToTop(event)" style="text-decoration: none; color: inherit;">
+          Strum
+        </a>
+      </div>
+      <nav class="flex-grow-1">
+        <ul class="list-unstyled d-flex justify-content-center mb-0">
           <li class="mx-2">
             <button class="nav-btn btn" onclick="location.href='discover.html'">
               Discover
             </button>
           </li>
           <li class="mx-2">
-            <!-- Home Icon as Image -->
-            <a href="index.html">
-              <img
-                src="images/house_strange_green_bg.png"
-                alt="Home"
-                style="width: 70px; height: 70px"
-              />
-            </a>
+            <button class="nav-btn btn" onclick="location.href='events.html'">
+              Events & Jams
+            </button>
           </li>
           <li class="mx-2">
             <button class="nav-btn btn" onclick="location.href='about_us.html'">
               About Us
             </button>
           </li>
+          <li class="mx-2">
+            <button class="nav-btn btn" onclick="location.href='contacts.html'">
+              Contact Us
+            </button>
+          </li>
         </ul>
       </nav>
+      <div class="logo-placeholder" style="width: 100px;">&nbsp;</div> <!-- This balances the logo space -->
     </header>
+    
 
     <!-- Contact Form Section -->
     <div class="container my-5">

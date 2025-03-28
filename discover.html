@@ -13,10 +13,13 @@
   <body>
     <!-- Header/Navbar -->
     <header
-      class="d-flex justify-content-between align-items-center py-3 px-4 shadow-sm bg-white fixed-top"
-    >
+      class="d-flex justify-content-between align-items-center py-3 px-4 shadow-sm bg-white fixed-top">
       <!-- Left: Logo -->
-      <div class="logo fw-bold">Strum</div>
+      <div class="logo">
+        <a href="index.html" onclick="scrollToTop(event)" style="text-decoration: none; color: inherit;">
+          Strum
+        </a>
+      </div>
 
       <!-- Center: Nav links -->
       <nav class="d-flex justify-content-center">
@@ -30,18 +33,18 @@
             </button>
           </li>
           <li class="mx-3">
-            <!-- Home Icon as Image -->
-            <a href="index.html">
-              <img
-                src="images/house_icon.png"
-                alt="Home"
-                style="width: 70px; height: 70px"
-              />
-            </a>
+            <button class="nav-btn btn" onclick="location.href='events.html'">
+              Events & Jams
+            </button>
           </li>
           <li class="mx-3">
             <button class="nav-btn btn" onclick="location.href='about_us.html'">
               About Us
+            </button>
+          </li>
+          <li class="mx-3">
+            <button class="nav-btn btn" onclick="location.href='contacts.html'">
+              Contact Us
             </button>
           </li>
         </ul>

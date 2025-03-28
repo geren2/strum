@@ -11,7 +11,11 @@
   </head>
   <body>
     <header class="d-flex justify-content-between align-items-center py-3">
-      <div class="logo">Strum</div>
+      <div class="logo">
+        <a href="index.html" onclick="scrollToTop(event)" style="text-decoration: none; color: inherit;">
+          Strum
+        </a>
+      </div>
       <nav class="d-flex justify-content-center">
         <ul class="list-unstyled d-flex mb-0">
           <li class="mx-2">
@@ -20,18 +24,18 @@
             </button>
           </li>
           <li class="mx-2">
-            <!-- Home Icon as Image -->
-            <a href="index.html">
-              <img
-                src="images/house_icon.png"
-                alt="Home"
-                style="width: 70px; height: 70px"
-              />
-            </a>
+            <button class="nav-btn btn" onclick="location.href='events.html'">
+              Events & Jams
+            </button>
           </li>
           <li class="mx-2">
             <button class="nav-btn btn" onclick="location.href='about_us.html'">
               About Us
+            </button>
+          </li>
+          <li class="mx-2">
+            <button class="nav-btn btn" onclick="location.href='contacts.html'">
+              Contact Us
             </button>
           </li>
         </ul>
@@ -40,6 +44,7 @@
         Login
       </button>
     </header>
+    
 
     <section class="hero">
       <h1>Connecting Musicians. Sharing Passion</h1>
@@ -94,19 +99,5 @@
         </div>
       </div>
     </section>
-
-    <footer>
-      <div class="footer-links">
-        <button class="footer-btn" onclick="location.href='about_us.html'">
-          About Us
-        </button>
-        <button class="footer-btn" onclick="location.href='contacts.html'">
-          Contacts
-        </button>
-        <button class="footer-btn" onclick="location.href='login.html'">
-          Login
-        </button>
-      </div>
-    </footer>
   </body>
 </html>
