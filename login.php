@@ -41,7 +41,7 @@
             <!-- Sign Up link -->
             <p class="mt-3 text-muted">
               If you don't have an account yet, please
-              <a href="sign_up.html" class="sign-up-link">Sign Up</a>
+              <a href="sign_up.php" class="sign-up-link">Sign Up</a>
             </p>
           </div>
         </div>

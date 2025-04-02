@@ -18,7 +18,7 @@
       <!-- Left: Logo -->
       <div class="logo">
         <a
-          href="index.html"
+          href="index.php"
           onclick="scrollToTop(event)"
           style="text-decoration: none; color: inherit"
         >
@@ -30,25 +30,25 @@
       <nav class="d-flex justify-content-center">
         <ul class="list-unstyled d-flex mb-0">
           <li class="mx-3">
-            <button class="nav-btn btn" onclick="location.href='discover.html'">
+            <button class="nav-btn btn" onclick="location.href='discover.php'">
               Discover
             </button>
           </li>
           <li class="mx-3">
             <button
               class="nav-btn btn active"
-              onclick="location.href='events.html'"
+              onclick="location.href='events.php'"
             >
               Events & Jams
             </button>
           </li>
           <li class="mx-3">
-            <button class="nav-btn btn" onclick="location.href='about_us.html'">
+            <button class="nav-btn btn" onclick="location.href='about_us.php'">
               About Us
             </button>
           </li>
           <li class="mx-3">
-            <button class="nav-btn btn" onclick="location.href='contacts.html'">
+            <button class="nav-btn btn" onclick="location.href='contacts.php'">
               Contact Us
             </button>
           </li>

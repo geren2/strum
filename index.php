@@ -1,3 +1,4 @@
+<?php include 'db.php'; ?>
 <!DOCTYPE html>
 <html lang="de">
   <head>
@@ -19,7 +20,7 @@
       <!-- Left: Logo -->
       <div class="logo">
         <a
-          href="index.html"
+          href="index.php"
           onclick="scrollToTop(event)"
           style="text-decoration: none; color: inherit"
         >
@@ -31,22 +32,22 @@
       <nav class="d-flex justify-content-center">
         <ul class="list-unstyled d-flex mb-0">
           <li class="mx-3">
-            <button class="nav-btn btn" onclick="location.href='discover.html'">
+            <button class="nav-btn btn" onclick="location.href='discover.php'">
               Discover
             </button>
           </li>
           <li class="mx-3">
-            <button class="nav-btn btn" onclick="location.href='events.html'">
+            <button class="nav-btn btn" onclick="location.href='events.php'">
               Events & Jams
             </button>
           </li>
           <li class="mx-3">
-            <button class="nav-btn btn" onclick="location.href='about_us.html'">
+            <button class="nav-btn btn" onclick="location.href='about_us.php'">
               About Us
             </button>
           </li>
           <li class="mx-3">
-            <button class="nav-btn btn" onclick="location.href='contacts.html'">
+            <button class="nav-btn btn" onclick="location.href='contacts.php'">
               Contact Us
             </button>
           </li>
@@ -56,7 +57,7 @@
       <!-- Right: Login button -->
       <button
         class="login-btn btn btn-outline-dark"
-        onclick="location.href='login.html'"
+        onclick="location.href='login.php'"
       >
         Login
       </button>
@@ -70,7 +71,7 @@
         beginner or a pro, our community helps you find people, learn new
         skills, and share your passion for music.
       </p>
-      <button class="signup-btn" onclick="location.href='sign_up.html'">
+      <button class="signup-btn" onclick="location.href='sign_up.php'">
         Sign Up
       </button>
       <img src="images/main_image.png" alt="Musician Community" />
@@ -87,7 +88,7 @@
           </p>
           <button
             class="feature-btn Discover-button"
-            onclick="location.href='discover.html'"
+            onclick="location.href='discover.php'"
           >
             Discover
           </button>
@@ -98,7 +99,7 @@
           <p>Find or share local and virtual music events!</p>
           <button
             class="feature-btn Events-button"
-            onclick="location.href='events.html'"
+            onclick="location.href='events.php'"
           >
             Events & Jams
           </button>
@@ -109,7 +110,7 @@
           <p>Learn more about us...</p>
           <button
             class="feature-btn About_us-button"
-            onclick="location.href='about_us.html'"
+            onclick="location.href='about_us.php'"
           >
             About Us
           </button>
